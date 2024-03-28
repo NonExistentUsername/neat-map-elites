@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "neat-mp"
+version = "0.1.0"
+description = ""
+authors = ["Dmytro Maior <mayor4090Gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+qdpy = "^0.1.2.2"
+neat-python = "^0.92"
+ribs = {extras = ["visualize"], version = "^0.7.0"}
+graphviz = "^0.20.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
